@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ITrivia</string>
+    <string name="password">Password</string>
+    <string name="repeatpassword">Repeat Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="email">Email</string>
+    <string name="user">User Name</string>
+    <string name="account"> Don\'t have an account?</string>
+    <string name="sign_up">  <u> Sign Up here </u> </string>
+    <string name="sign_in">Log In</string>
+    <string name="Categories">categoryFragment</string>
+    <string name="rankingFragment">Ranking</string>
+    <string name="map_key" translatable="false"> AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is Ranking page</string>
+    <string name="categoryFragment">Category</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change password</string>
+    <string name="admin_page">This is the Admin Page </string>
+    <string name="choose_one_action">Choose one action: </string>
+    <string name="add_a_question">Add a question</string>
+    <string name="users">Users</string>
+    <string name="add_questions">Add questions</string>
+    <string name="delete_questions">Delete questions</string>
+    <string name="question">Question</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="AddCategories">Add categories</string>
+    <string name="AddQuestions">Click here if you want to add new questions.</string>
+    <string name="score">Total Score</string>
+    <string name="Category">Category name</string>
+    <string name="scoreCategory">Score</string>
+    <string name="categories">Categories</string>
+    <string name="category_name">Category Name</string>
+    <string name="prev">Prev</string>
+</resources>

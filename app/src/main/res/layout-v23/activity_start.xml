@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coding"
+    tools:context=".Start">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/play_button"
+            android:layout_margin="9dp"
+            android:background="@drawable/backgroud_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Play"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

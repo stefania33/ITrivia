@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_page"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/choose_one_action"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="363dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.093">
+
+
+        <ImageView
+            android:id="@+id/image_users"
+            android:layout_width="87dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/admin1" />
+
+        <ImageView
+            android:id="@+id/image_qa"
+            android:layout_width="87dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/admin2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="341dp"
+        android:layout_height="46dp"
+        android:padding="5dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.212">
+
+        <Button
+            android:id="@+id/users"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/users"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="516dp" />
+        <Button
+            android:id="@+id/addCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/AddCategories"
+            android:textAlignment="center"
+            android:background="@drawable/backgroud_button"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="61dp"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.177">
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/add_questions"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_questions"
+            android:textAlignment="center"
+            android:background="@drawable/backgroud_button"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="44dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_keyboard_backspace_black_24dp"
+        android:text="Prev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
